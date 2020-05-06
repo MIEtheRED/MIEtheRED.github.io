@@ -1,0 +1,8 @@
+.heading {
+    width: 100%;
+    text-shadow: 0.25rem 0.25rem $shadow;
+    color: $accent;
+    background: $primary;
+    line-height: 5rem;
+    padding: $formPad;
+}
