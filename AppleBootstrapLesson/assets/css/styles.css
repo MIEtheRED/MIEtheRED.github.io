@@ -1,0 +1,189 @@
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  background-color: black !important;
+  opacity: .8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 13px;
+}
+
+.navbar-dark .navbar-nav .nav-link .apple-logo {
+  font-size: 21px;
+  line-height: 0;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.products {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .products {
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.products-small {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.products h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .products h1 {
+    font-size: 56px;
+  }
+}
+
+.products h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .products h2 {
+    font-size: 27px;
+  }
+}
+
+.products .links {
+  font-size: 21px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 576px) {
+  .products .links {
+    margin-bottom: 80px;
+  }
+}
+
+.products-small .links {
+  font-size: 17px;
+  margin-bottom: 80px;
+}
+
+.products .links .learn-more {
+  margin-right: 20px;
+}
+
+.products-small .links .learn-more {
+  margin-right: 20px;
+}
+
+.products.iphonex {
+  background-color: #fafafa;
+}
+
+.products.ipad {
+  background-color: #f5f5f5;
+}
+
+.products.macbook-pro {
+  background-color: #131218;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 576px) {
+  .products.macbook-pro {
+    padding-bottom: 50px;
+  }
+}
+
+.products.dark {
+  color: white;
+}
+
+.products-small.dark {
+  color: white;
+}
+
+.products.dark a {
+  color: white;
+}
+
+.products-small.dark a {
+  color: white;
+}
+
+.products .links .small-link-margin {
+  margin-bottom: 0;
+}
+
+.products-small .links .small-link-margin {
+  margin-bottom: 20px;
+}
+
+.products-small {
+  height: 550px;
+  padding-top: 40px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 576px) {
+  .products-small {
+    margin: 0 0 10px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.products-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.products-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.products-small.behind-the-mac.dark {
+  padding-top: 420px;
+}
+
+.products-grid {
+  padding-right: 0;
+}
+
+@media (min-width: 576px) {
+  .products-grid {
+    padding-right: 10px;
+  }
+}
+
+.products-small.iphone-8 {
+  background-color: #f9f0eb;
+}
+
+.products-small.airpods {
+  background-color: #fafafa;
+}
+
+.products-small h5 {
+  color: #ce2626;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.products-small.apple-watch {
+  background-color: #eeeeee;
+}
+
