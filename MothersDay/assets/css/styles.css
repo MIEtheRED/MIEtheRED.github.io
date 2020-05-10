@@ -1,0 +1,129 @@
+.navbar-light .navbar-brand {
+  font-size: 30px;
+  color: rgb(235,15,15);
+  margin-bottom: 15px;
+  padding-right: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #eb0f0f;
+  text-shadow: 2px 2px rgb(87,7,7);
+  background-color: #fde8eb;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #eb0f0f;
+  text-shadow: 2px 2px rgb(87,7,7);
+  background-color: #fde8eb;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-top: 15px;
+}
+
+.awesome h1 {
+  text-align: center;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+section h3 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 20px;
+}
+
+section p {
+  text-align: center;
+  font-weight: 300;
+  padding: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+}
+
+body {
+  background: #fde8eb;
+}
+
+#BHat {
+  width: 450px;
+}
+
+#BGrad {
+  width: 450px;
+}
+
+#BGrass {
+  width: 450px;
+}
+
+#ABMarry {
+  width: 450px;
+}
+
+.row .first {
+  padding: 50px;
+}
+
+.col {
+  display: block;
+  margin: auto;
+}
+
+.photos-small {
+  height: 550px;
+  padding: 20px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+.brandon-small {
+  height: 550px;
+  padding: 20px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+#first {
+  padding: 50px 50px 5px 50px;
+}
+
+.row {
+  padding: 5px 50px;
+}
+
+.footer-h3 {
+  text-align: center;
+  font-weight: 400;
+  font-style: oblique;
+  color: #eb0f0f;
+  background-color: #fde8eb;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color: #f7baca;
+}
+
+section {
+  margin: 10px 10px 5px 10px;
+}
+
