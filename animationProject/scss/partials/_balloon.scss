@@ -1,0 +1,35 @@
+.balloon-container {
+	width:120px;
+	height:175px;
+	position:absolute;
+	left:75%;
+  bottom:55%;
+
+  /*ANIMATIONS*/
+
+    animation: balloonMove 20s both linear,
+    float 8s 1.2s ease-in-out infinite;
+    
+
+  .balloon {
+    background-image: URL("../images/balloon.png");
+    width:100%;
+    height:100%;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@keyframes balloonMove{
+  from{transform: translateX(10px);}
+  to{transform: translateX(-1600px);}
+}
+
+@keyframes float{
+  0%{top: 165px}
+  25%{top: 100px}
+  50%{top: 190px}
+  75%{top: 215px}
+  100%{top: 165px}
+}
