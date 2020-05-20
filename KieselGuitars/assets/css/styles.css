@@ -1,0 +1,249 @@
+/*Brandon Miethe, 05/20/2020*/
+
+.navbar-light .navbar-nav .nav-link {
+  text-align: center;
+  margin-top: 6.5px;
+  color: rgb(218,218,225);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(241,242,245);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(241,242,245);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.catalog-open:hover {
+  width: 100%;
+  background: rgb(221,220,226);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.navbar img {
+  padding-right: 20px;
+}
+
+.catalog-btn:focus {
+  background: rgb(57,57,59);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.catalog-btn:hover {
+  background: rgb(57,57,59);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.catalog-btn {
+  width: 100%;
+  background: rgb(218,218,225);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: right;
+}
+
+.dropdown-menu {
+  width: 100%;
+  background-color: rgb(218,218,225);
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+.catalog a {
+  font-size: .5rem;
+}
+
+.catalog-heading {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.catalog-row {
+  padding-bottom: 1rem;
+}
+
+.col.catalog-col {
+  text-align: center;
+}
+
+.basses img {
+  width: 25%;
+}
+
+.guitars img {
+  width: 25%;
+}
+
+.basses h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.guitars h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.basses h4 {
+  text-align: center;
+  font-weight: 300;
+  font-style: oblique;
+  padding-bottom: 2rem;
+}
+
+.guitars h4 {
+  text-align: center;
+  font-weight: 300;
+  font-style: oblique;
+  padding-bottom: 2rem;
+}
+
+.basses {
+  padding: 1rem;
+  text-align: center;
+}
+
+.guitars {
+  padding: 1rem;
+  text-align: center;
+}
+
+.guitars-banner {
+  margin: 2rem auto 0;
+}
+
+:root {
+}
+
+.navbar-light .navbar-toggler {
+}
+
+.navbar-dark {
+  background: black;
+  padding: 1.5rem;
+}
+
+.guitars p {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.basses p {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.parts-accessories-merch {
+  padding: 5rem 1rem;
+}
+
+.parts-accessories-merch .nav-item {
+  margin: 0 auto;
+}
+
+.parts-accessories-merch img {
+  width: 20%;
+}
+
+.parts-accessories-merch {
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid rgb(57,57,59);
+}
+
+.merch img {
+  margin: 5rem auto;
+}
+
+.artists .col {
+  text-align: center;
+}
+
+.artists h6 {
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.artists .col {
+  border: 2px solid rgb(57,57,59);
+  border-left: none;
+  background: black;
+  color: rgb(241,242,245);
+  overflow: hidden;
+}
+
+.artists h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.parts-accessories-merch h1 {
+}
+
+.parts-accessories-merch h4 {
+  font-weight: 300;
+  font-style: oblique;
+  padding-bottom: 2rem;
+}
+
+.artists h4 {
+  padding: 1rem 0;
+}
+
+.artists p {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.kieselCard:hover {
+  width: 100%;
+  background: rgb(57,57,59);
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.kieselCard {
+  width: 100%;
+  color: black;
+  background: rgb(218,218,225);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.kieselCard p {
+}
+
+modal p {
+  text-align: center;
+}
+
+.parts-accessories-merch a {
+  font-size: 2rem;
+  color: rgb(33,37,41);
+  font-weight: 500;
+}
+
+.dropdown-menu.show {
+  background: rgb(218,218,225);
+}
+
+#catalogMenu a {
+  color: black;
+}
+
+.footer-dark p {
+  text-align: center;
+}
+
