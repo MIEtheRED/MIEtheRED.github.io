@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<!--
+    Author: Brandon Miethe
+    Date: 10/09/2020
+
+    Modification Log: 10/09/2020 - Created entire site
+                                 - Added bootstrap CDNs
+                                 - Created CSS to override bootstrap CSS
+                                 - Added some filler and some meaningful content
+                                 - Still mad about the margin on the jumbotrons...
+-->
+
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Parallax</title>
+        <meta name="author" content="Brandon Miethe">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron jumbotron-fluid text-center">
+                <div class="container jumbotron-container">
+                    <h1>Interstellar Corporation</h1>
+                    <p>Take your life to the next <strike>level</strike>... to the next <u><em>PLANET</em></u> </p>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Interstellar Corp.</a>
+            
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#history">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#images">Images</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sponsors">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jobs">Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="container text-center" id="history">
+                    <h1>From the Bang to Today</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget euismod quam. Sed sagittis, velit et sagittis ullamcorper, augue tortor pellentesque justo, id imperdiet velit odio in sapien. Sed hendrerit dolor in fringilla pulvinar. Nulla pellentesque enim sed porttitor posuere. Nullam sed sagittis tortor. Nunc eu enim sed arcu tempor consectetur vel auctor nisl. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><br>
+
+                        Praesent at enim velit. In hac habitasse platea dictumst. Vestibulum id enim cursus, dapibus metus vel, laoreet ex. Etiam et nunc vitae ex vestibulum sodales. Curabitur non molestie turpis, non mattis libero. Mauris gravida venenatis quam. Suspendisse potenti. Sed accumsan nisi nec leo lobortis ullamcorper.<br><br>
+                        
+                        Sed aliquam commodo dapibus. Suspendisse efficitur convallis dui, vitae cursus magna placerat tempus. Donec viverra ipsum ultricies, tincidunt arcu quis, scelerisque libero. Vestibulum ut tempus libero. Morbi sagittis, odio non viverra fermentum, libero dui dignissim tellus, sed pretium mauris lacus ut mauris. Praesent nulla dolor, finibus iaculis justo sit amet, venenatis tempor magna. Curabitur gravida eros ac eros lobortis tincidunt. Fusce interdum arcu et sem fermentum suscipit. Sed vitae diam sit amet metus malesuada vehicula. Etiam sit amet luctus nisi, vel consequat libero. Vestibulum interdum vitae eros sit amet vehicula. Aliquam interdum metus vel urna semper tincidunt. Nulla pulvinar in sapien quis venenatis. Duis euismod aliquet dignissim. Curabitur sit amet iaculis leo, non rutrum purus.</p>
+                </div>
+                <div class="container text-center" id="images">
+                    <h1>Photos of Epic Missions</h1>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                      
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/solar_system.png" alt="Los Angeles">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/apollo.png" alt="Chicago">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/neptune.png" alt="New York">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/star_cluster.png" alt="New York">
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      
+                    </div>
+                </div>
+                <div class="container text-center" id="sponsors">
+                    <h1>Our Sponsors</h1>
+                    <div class="card" style="width:500px">
+                        <img class="card-img-top" src="img/nasa.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">NASA</h4>
+                            <p class="card-text">Sponsoring Since 2027</p>
+                            <a href="#" class="btn btn-primary">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width:500px">
+                        <img class="card-img-top" src="img/google.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Google</h4>
+                            <p class="card-text">Sponsoring Since 2032</p>
+                            <a href="#" class="btn btn-primary">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width:500px">
+                        <img class="card-img-top" src="img/coming_soon.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Many More</h4>
+                            <p class="card-text">Coming Soon... hopefully.</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="container text-center" id="jobs">
+                    <h2>Interstellar Em/De/ployment</h2>
+                    <p>Applicants should apply to begin processing ASAP. Limited positions are available.
+                        We are at 100% staffing when the bar reaches completion<br><br> Create login credentials below.<br><br>
+                    </p> 
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                    </div>
+                    <form action="/action_page.php" class="was-validated">
+                        <div class="form-group">
+                          <label for="uname">Username:</label>
+                          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember" required> I understand that I may never return to Earth.
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="container text-center" id="contact">
+                    <h1>Interstellar Corporation</h1>
+                    <!--Section: Contact v.2-->
+                    <section class="mb-4">
+
+                        <!--Section heading-->
+                        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                        <!--Section description-->
+                        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                            a matter of hours to help you.</p>
+                        
+                            <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-9 mb-md-0 mb-5">
+                                <form id="contact-form" name="contact-form" action="parallax.html">
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="name" name="name" class="form-control">
+                                                <label for="name" class="">Your name</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="email" name="email" class="form-control">
+                                                <label for="email" class="">Your email</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+                                    </div>
+                                    <!--Grid row-->
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="subject" name="subject" class="form-control">
+                                                <label for="subject" class="">Subject</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+                                            <div class="md-form">
+                                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                <label for="message">Your message</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+                                </form>
+                                <div class="text-center text-md-left form-btn">
+                                    <a class="btn btn-primary">Send</a>
+                                </div>
+                                <div class="status"></div>
+                            </div>
+                            <!--Grid column-->
+                            <!--Grid column-->
+                            <div class="col-md-3 text-center contact">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <p>Star, Idaho 83669, USA</p>
+                                    </li>
+                                    <li>
+                                        <p>(123) 456-7890</p>
+                                    </li>
+                                    <li>
+                                        <p>contact@interstellar.org</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <hr>
+        </main>
+        <footer>
+            <div class="jumbotron jumbotron-fluid text-center">
+                <div class="container">
+                    <h3>This planet will surely expire, will you be ready?</h3>
+                </div>
+              </div>
+        </footer>
+    </body>
+</html>

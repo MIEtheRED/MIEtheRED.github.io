@@ -1,0 +1,51 @@
+.jumbotron{
+    background-image: url(img/stars.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px #730d0d;
+}
+
+.jumbotron-container{
+    padding-bottom: 2em;
+}
+
+.jumbotron-fluid{
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    padding-left: .5em;
+}
+
+.nav-item{
+    padding-left: .5em;
+}
+
+.container{
+    padding: 2em;
+}
+
+#history, #images, #sponsors, #jobs, #contact{
+    border: #730d0d 2px solid;
+    border-radius: 3px;
+    margin: 2em auto;
+}
+
+#history h1, #images h1, #sponsors h1, #jobs h1, #contact h1{
+    padding-bottom: 1em;
+}
+
+.carousel-control-prev{
+    background-color: rgb(34, 33, 42);
+}
+
+.carousel-control-next{
+    background-color: rgb(34, 33, 42);
+}
+
+.card{
+    margin: 1em auto;
+    padding: 2em;
+    background-color: white;
+}
+
