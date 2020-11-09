@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <!--
+        Author: Brandon Miethe
+        Date: 08/25/2020
+        Last Modified: 08/28/2020 - Added JavaScript prompt
+                       09/11/2020 - Added Products, Cart, and Specials HTML pages
+                                    Added Calendar.js, cart.js, clock.js
+                                    Updated contact.js, faq.js, newsletter.js
+                                    Updated CSS to accomodate new pages
+                       09/17/2020 - Made sure that the footer's clock would function on all pages,
+                                    and still allow for other .js files to execute as well.
+                                  - Updated page descriptions for accuracy (previously all were copied and pasted)
+                                  - Deleted unnecessary files
+                                  - Cleaned up CSS for better asthetics
+                                  - Started working on adding Regex to forms
+                       09/18/2020 - Finished Regex on both forms .js pages
+                                  - Started working on media queries
+                       09/23/2020 - Finished media queries
+    -->
+
+    <head>  
+        <meta charset="utf-8" />
+        <meta name="description" content="The landing page to Warlock's Beard">
+        <meta name="keywords" content="Beard, Beard Care, Oil, Balm, Wax, Grooming, Hair">
+        <meta name="author" content="Brandon Miethe">
+        <meta name="viewport" content="width=device-width" inital-scale=1.0>
+        <title>Warlock's Beard</title>
+        <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/png" sizes="16x16">
+        <script src="js/calendar.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+      <div class="grid-container-a">
+        <div class="grid-item-header">
+          <header>
+            <h1>Warlock's Beard</h1>
+            <h5>Products and Supplies</h5>
+            <div class="horizontal-menu">
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+                <li style="float:right"><a class="active" href="cart.html">Cart</a></li>
+              </ul>
+            </div>
+            <div class="vertical-menu">
+              <a href="home.html" class="active">Home</a>
+              <!-- FOR USE AT A LATER DATE <a href="#">Our Story</a>-->
+              <a href="products.html">Products</a>
+              <!-- FOR USE AT A LATER DATE <a href="#">Partner Program</a>-->
+              <a href="faq.html">FAQ</a>
+              <a href="specials.html">Specials</a>
+              <a href="cart.html">Cart</a>
+              <a href="contact.html">Contact</a>
+          </div>
+          </header>
+        </div>
+        <div class="grid-item-section">
+          <section class="calendar">
+            <h1><span id="month_year">&nbsp;</span></h1>
+
+            <table id="calendar">
+                <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+            </table>
+          </section>
+        </div>
+        <div class="grid-item-aside">
+          <aside class="calendar">
+              <p id="superText">
+                  Our Specials
+              </p>
+              <p>
+                  We run our specials on a weekly and monthly basis. Our monthly special is 
+                  always the same - 1 FREE Beard Oil with a total monthly purchase of $100
+                  or more*<br><br>
+                  *Must be signed up for our Newsletter to obtain any discounts.
+              </p>
+          </aside>
+        </div>
+      </div>
+      <footer>
+        <p id="footerText">Copyright &copy; 2020 Warlock's Beard Supplies</p> &nbsp; <a href="mailto:Customerservice@warlocksbeard.com">CustomerService@WarlocksBeard.com</a>
+        <p><a href="https://www.facebook.com" target="_blank"><img class="socials" src="img/facebookIcon.png"></a>
+          <a href="https://www.instagram.com" target="_blank"><img class="socials" src="img/instagramIcon.png"></a>
+          <a href="https://www.twitter.com" target="_blank"><img class="socials" src="img/twitterIcon.png"></a>
+          <a href="https://www.snapchat.com" target="_blank"><img class="socials" src="img/snapchatIcon.png"></a></p>
+        <div id="clock"></div>
+      </footer>
+    </body>
+    </html>

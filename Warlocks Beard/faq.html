@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+    <!--
+        Author: Brandon Miethe
+        Date: 08/25/2020
+        Last Modified: 08/28/2020 - Added JavaScript prompt
+                       09/11/2020 - Added Products, Cart, and Specials HTML pages
+                                    Added Calendar.js, cart.js, clock.js
+                                    Updated contact.js, faq.js, newsletter.js
+                                    Updated CSS to accomodate new pages
+                       09/17/2020 - Made sure that the footer's clock would function on all pages,
+                                    and still allow for other .js files to execute as well.
+                                  - Updated page descriptions for accuracy (previously all were copied and pasted)
+                                  - Deleted unnecessary files
+                                  - Cleaned up CSS for better asthetics
+                                  - Started working on adding Regex to forms
+                       09/18/2020 - Finished Regex on both forms .js pages
+                                  - Started working on media queries
+                       09/23/2020 - Finished media queries
+    -->
+
+<head>  
+    <meta charset="utf-8" />
+    <meta name="description" content="The FAQ page for Warlock's Beard">
+    <meta name="keywords" content="Beard, Beard Care, Oil, Balm, Wax, Grooming, Hair">
+    <meta name="author" content="Brandon Miethe">
+    <meta name="viewport" content="width=device-width" inital-scale=1.0>
+    <title>Warlock's Beard</title>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/styles1.css">
+    <script src="js/faq.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="grid-container-a">
+    <div class="grid-item-header">
+      <header>
+        <h1>Warlock's Beard</h1>
+        <h5>Products and Supplies</h5>
+        <div class="horizontal-menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+            <li style="float:right"><a class="active" href="cart.html">Cart</a></li>
+          </ul>
+      </div>
+      <div class="vertical-menu">
+        <a href="home.html" class="active">Home</a>
+        <!-- FOR USE AT A LATER DATE <a href="#">Our Story</a>-->
+        <a href="products.html">Products</a>
+        <!-- FOR USE AT A LATER DATE <a href="#">Partner Program</a>-->
+        <a href="faq.html">FAQ</a>
+        <a href="specials.html">Specials</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </div>
+      </header>
+    </div>
+    <div class="grid-item-section">
+      <main id="faqs">
+          <h2><a href="#">What does beard oil do?</a></h2>
+          <div>
+            <p>A beard oil will help to promote healthy beard growth by allowing
+              your face stay properly moisturized. The oil will penetrate deep
+              into the follicle and saturate the root of your beard hair.
+            </p>
+          </div>
+          <h2><a href="#">What does beard balm do?</a></h2>
+          <div>
+            <p>A beard balm is meant to moisturize your beard hair. Think of it
+              like a leave in conditioner that keeps your face smelling and
+              looking great!
+            </p>
+          </div>
+          <h2><a href="#">All about Beard Care Kits</a></h2>
+          <div>
+            <p>Warlock's offers a great variety of products, and we have simplified
+              your shopping needs by putting commonly purchased together
+              items into one convenient kit. We offer several kits that range from
+              the essentials (The Apprentice), all the way up to our full line of
+              products all in one place (Warlock's Box+).
+            </p>
+          </div>
+          <h2><a href="#">Money Back Guarantee</a></h2>
+          <div>
+            <p>If for any reason you are unsatisfied with the product that you
+              receive, we offer a 100% satisfaction guarantee.<br><br>Don't like
+              the smell? Don't feel like the product worked as expected? Accidentally
+              ordered double the amount that you need?<br><br>RETURN IT AND GET
+              A FULL REFUND!!*<br><br>*Customers outside of the USA, Canada, and UK
+              must pay for thier own postage.
+            </p>
+          </div>
+        </main>
+    </div>
+    <div class="grid-item-aside">
+        <aside id="motto">
+            <p>
+                Better beards, better men
+            </p>
+            <p id="superText">
+                BROTHERHOOD.
+            </p>
+        </aside>
+    </div>
+  </div>
+  <footer>
+      <p id="footerText">Copyright &copy; 2020 Warlock's Beard Supplies</p> &nbsp; <a href="mailto:Customerservice@warlocksbeard.com">CustomerService@WarlocksBeard.com</a>
+      <p><a href="https://www.facebook.com" target="_blank"><img class="socials" src="img/facebookIcon.png"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="socials" src="img/instagramIcon.png"></a>
+        <a href="https://www.twitter.com" target="_blank"><img class="socials" src="img/twitterIcon.png"></a>
+        <a href="https://www.snapchat.com" target="_blank"><img class="socials" src="img/snapchatIcon.png"></a></p>
+      <div id="clock"></div>
+    </footer>
+</body>
+</html>

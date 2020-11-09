@@ -1,0 +1,448 @@
+/*
+==============
+GRID LAYOUT
+==============
+*/
+
+.grid-item-header{
+  grid-area: H;
+}
+.grid-item-section{
+  grid-area: S;
+}
+.grid-item-aside{
+  grid-area: A;
+}
+
+.grid-container-a {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "H H H H H"
+    "S S S A A"
+    "S S S A A"
+}
+
+.grid-container-a > div {
+  
+  text-align: center;
+}
+
+
+/*
+============
+BASIC STYLES
+============
+*/
+
+html{
+  background: url(../img/magicWoods.jpg);
+  color: white;
+}
+
+header h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 3em;
+  color: rgb(243, 118, 16);
+  text-shadow: 2px 2px rgb(71, 33, 11);
+  
+}
+
+header h5{
+  font-size: 1em;
+}
+
+body{
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.keywords{
+  color: rgb(243, 118, 16);
+}
+
+#welcome{
+  text-align: center;
+}
+
+#superText{
+  color: rgb(243, 118, 16);
+  font-size: 2em;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 2em;
+  margin: auto 1em;
+}
+
+.socials{
+  display: block;
+  float: left;
+  padding-right: 5px;
+}
+
+#footerText{
+  display: inline;
+}
+
+#clock{
+  display: block;
+  float: right;
+}
+
+
+/*
+===========
+MENU STYLES
+===========
+*/
+
+.index-menu{
+  width: 400px;
+}
+
+.index-menu a{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.index-menu a:hover{
+  opacity: .5;
+  background-color: rgb(243, 118, 16);
+}
+
+.index-menu a.active{
+  background-color: rgb(243, 118, 16);
+  color: white;
+}
+
+.vertical-menu{
+  width: 400px;
+}
+
+.vertical-menu a{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover{
+  opacity: .5;
+  background-color: rgb(243, 118, 16);
+}
+
+.vertical-menu a.active{
+  background-color: rgb(243, 118, 16);
+  color: white;
+}
+
+.horizontal-menu ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.horizontal-menu li{
+  float: left;
+}
+
+.horizontal-menu li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.horizontal-menu .active{
+  background-color: rgb(243, 118, 16);
+}
+
+.horizontal-menu .active:hover{
+  opacity: .8;
+}
+
+/*
+===========
+FORM STYLES
+===========
+*/
+
+
+.form-container{
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=text], input[type=button]{
+  width: 400px;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=checkbox]{
+  margin-top: 16px;
+}
+
+input[type=button]{
+  background-color: rgb(243, 118, 16);
+  border: none;
+  font-family: serif;
+  color: white;
+  font-size: 1em;
+}
+
+input[type=button]:hover{
+  opacity: .8;
+}
+
+#cart_add{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 1em;
+}
+
+.submit_button{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+==========
+FAQ STYLES
+==========
+*/
+
+#faqs h2{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 12px;
+  width: 400px;
+  border: none;
+  text-align: center;
+  font-family: serif;
+  font-size: 1em;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.active, a:hover{
+  background-color: rgb(243, 118, 16);
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+#faqs div{
+  padding: 0 12px;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+#faqs div.open{
+  display:block;
+}
+
+
+/*
+========
+CALENDAR
+ STYLES
+========
+*/
+
+.calendar section {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 0 auto;
+  width: 360px;
+}
+h1 {
+  color: rgb(243, 118, 16);
+}
+#calendar {
+  border-collapse: collapse;
+  border: 1px solid rgb(243, 118, 16);
+}
+#calendar td {
+  width: 3em;
+  height: 3em;
+  vertical-align: top;
+  padding: 0.5 0 0 0.5;
+  border: 1px solid rgb(243, 118, 16);
+}
+
+
+/*
+=======
+ MEDIA
+QUERIES
+=======
+*/
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+  .grid-container-a {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr .5fr .5fr;
+    grid-template-areas:
+      "H H"
+      "S S"
+      "A A"
+  }
+
+  html{
+    background-size: cover;
+  }
+
+  
+  
+  .horizontal-menu{
+    display: none;
+  }
+
+  .grid-item-header{
+    margin: 1em;
+  }
+
+  .index-menu{
+    width: 300px;
+    margin: auto;
+  }
+
+  #index-motto #superText{
+    font-size: 1.5em;
+  }
+
+  .vertical-menu{
+    width: 300px;
+    margin: auto;
+  }
+
+  #motto{
+    font-size: .7em;
+    margin-top: 7em;
+  }
+
+  input[type=text], input[type=button]{
+    width: 250px;
+  }
+
+  #faqs{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  #faqs h2{
+    width: 300px;
+    margin: 12px auto;
+  }
+
+  #task_list{
+    width: 300px;
+  }
+
+  .socials{
+    margin-right: .2em;
+  }
+
+  footer{
+    font-size: .8em;
+    margin-left: .7em;
+  }
+
+  #clock{
+    margin-right: .5em;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html{
+    background-size: cover;
+  }
+
+  .vertical-menu{
+    display: none;
+  }
+
+  #motto{
+    margin-top: 10em;
+  }
+
+  #superText{
+    font-size: 1.5em;
+  }
+
+  #welcome{
+    margin-top: 3em;
+  }
+
+  section{
+    padding: 1em;
+  }
+
+  aside{
+    padding: 1em;
+  }
+
+  #newsletter{
+    margin-top: 5em;
+  }
+
+  #contact_form{
+    margin-top: 4em;
+  }
+
+  #faqs{
+    margin-top: 8.5em;
+  }
+
+  input[type=text], input[type=button]{
+    width: 200px;
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html{
+    background-size: cover;
+  }
+  
+  .form-container{
+    margin-top: 6em;
+  }
+
+  header{
+    padding: 1.4em;
+  }
+
+  #welcome{
+    margin-top: 5em;
+  }
+  
+  #newsletter{
+    margin-top: -1em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.grid-item-header{
+  padding-bottom: 0;
+}
+}
