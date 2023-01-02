@@ -31,7 +31,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url('/img/heroBg.jpg');
+    background-image: url('img/heroBg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -212,7 +212,7 @@ p a:hover {
 
     border-radius: 8px;
 
-    background-image: url('/img/snorkeling.jpg');
+    background-image: url('img/snorkeling.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -224,7 +224,7 @@ p a:hover {
 
     border-radius: 8px;
 
-    background-image: url('/img/rainforest.jpg');
+    background-image: url('img/rainforest.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -236,7 +236,7 @@ p a:hover {
 
     border-radius: 8px;
 
-    background-image: url('/img/museum.jpg');
+    background-image: url('img/museum.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -250,7 +250,7 @@ p a:hover {
 
     border-radius: 8px;
 
-    background-image: url('/img/grilled-fish.jpg');
+    background-image: url('img/grilled-fish.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
